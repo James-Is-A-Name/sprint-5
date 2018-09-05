@@ -30,7 +30,7 @@ function fizzBuzz(numberLength){
             wordsToPrint += "Buzz";
         }
 
-        if(wordsToReply === ""){
+        if(wordsToPrint === ""){
             wordsToPrint = i;
         }
         console.log(wordsToPrint);
